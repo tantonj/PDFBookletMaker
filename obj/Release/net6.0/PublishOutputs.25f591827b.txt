@@ -1,0 +1,7 @@
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/PDFBookletMaker
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/PDFBookletMaker.dll
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/PDFBookletMaker.deps.json
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/PDFBookletMaker.runtimeconfig.json
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/PDFBookletMaker.pdb
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/BouncyCastle.Crypto.dll
+/home/tantonj/Documents/GitHub/PDFBookletMaker/bin/Release/net6.0/publish/itextsharp.dll
