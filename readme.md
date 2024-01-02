@@ -6,8 +6,8 @@ Provided in releases is the Linux and Windows builds. 3 parameters are required:
 ```-bsize``` (```-b```) the number of pages you desire for each booklet. This MUST be a multiple of 4 and a postive integer.<br />
 
 e.g.,<br /> 
-Linux: ```./PDFBookletMaker -s "sourcefile.pdf" -d "output.pdf" -b 12``` will process sourcefile.pdf int a 12 page booklet pdf named output.pdf<br />
-Windows ```PDFBookletMaker -s "sourcefile.pdf" -d "output.pdf" -b 12``` will process sourcefile.pdf int a 12 page booklet pdf named output.pdf<br />
+Linux: ```./PDFBookletMaker -s "sourcefile.pdf" -d "output.pdf" -b 12``` will process sourcefile.pdf into a 12 page booklet pdf named output.pdf<br />
+Windows ```PDFBookletMaker -s "sourcefile.pdf" -d "output.pdf" -b 12``` will process sourcefile.pdf into a 12 page booklet pdf named output.pdf<br />
 
 Once you run this command the application will process the pdf and determine if extra pages are needed. It will prompt you if the needed pages added to front and pack is acceptable. 
 
