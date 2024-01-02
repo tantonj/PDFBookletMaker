@@ -7,6 +7,8 @@ Provided in releases is the Linux build. This can be run in terminal by using ./
 
 Once you run this command the application will process the pdf and determine if extra pages are needed. It will prompt you if the needed pages added to front and pack is acceptable. For example a 70 page document using a booklet size of 12 pages would require 6 booklets. However 6*12=72. So the application would ask if you would like to add 1 blank page to the front and 1 to the back. If you respond with Y then the application will add those pages and rearrange the page order appropriately. If you say no the program finishes with no action.
 
+Resulting PDF can then be printed using a duplex printer. Choose 2 pages per side/sheet and use Short-edge binding when printing for a booklet. I recommend printing the first 4 pages (1st folio) to test that your booklets are printing correctly.
+
 If you would like to run this program on windows you will need to compile it yourself. Download the source and in vs.code using the terminal enter the command "dotnet publish --configuration Release". Doing this on a windows machine should generate an exe which you can use in command prompt. (I don't have a windows machine)
 
 To run this on any platform, install dotnet and use the command "dotnet PDFBookletMaker.dll" with the appropriate parameters.
