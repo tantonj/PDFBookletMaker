@@ -9,13 +9,13 @@ e.g.,<br />
 Linux: ```./PDFBookletMaker -s "sourcefile.pdf" -d "output.pdf" -b 12``` will process sourcefile.pdf into a 12 page booklet pdf named output.pdf<br />
 Windows ```PDFBookletMaker -s "sourcefile.pdf" -d "output.pdf" -b 12``` will process sourcefile.pdf into a 12 page booklet pdf named output.pdf<br />
 
-Once you run this command the application will process the pdf and determine if extra pages are needed. It will prompt you if the needed pages added to front and pack is acceptable. 
+Once you run this command the application will process the pdf and determine if extra pages are needed. It will prompt you if the needed pages added to front and back are acceptable. 
 
-For example a 70 page document using a booklet size of 12 pages would require 6 booklets. However 6*12=72. So the application would ask if you would like to add 1 blank page to the front and 1 to the back. If you respond with Y then the application will add those pages and rearrange the page order appropriately. If you say no the program finishes with no action.
+For example, a 70 page document using a booklet size of 12 pages would require 6 booklets. However 6*12=72. So the application would ask if you would like to add 1 blank page to the front and 1 to the back. If you respond with Y then the application will add those pages and rearrange the page order appropriately. If you say no the program finishes with no action. If an odd number of pages is needed the extra 1 will be in the back, there is no option to change this if this is needed modify code accordingly and rebuild.
 
 Resulting PDF can then be printed using a duplex printer. Choose 2 pages per side/sheet and use Short-edge binding when printing for a booklet. I recommend printing the first 4 pages (1st folio) to test that your booklets are printing correctly.
 
-To run this on any platform, install dotnet and use the command:<br/>
+To run this on any platform (including Mac), install dotnet and use the command:<br/>
 ```dotnet PDFBookletMaker.dll -s "sourcefile.pdf" -d "output.pdf" -b 12``` with the appropriate parameters modified.
 
 I created this application for my own purposes very quickly. Excellent Object Oriented principles were not followed. Feel free to modify as you see fit.
